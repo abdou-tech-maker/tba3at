@@ -96,7 +96,7 @@ class _LoginState extends State<Login> {
                                 ),
                                 labelText: 'password',
                                 hintText: 'Enter Your Password'),
-                            obscureText: hidePassword ? false : true,
+                            obscureText: hidePassword ? true : false,
                           ),
                         ],
                       ),
