@@ -32,11 +32,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
   flutter_native_splash: ^0.2.8
 
 flutter_native_splash: 
-  color: "#4ADEDE"
-  image: assets/images/Splash.png
+  color: "#ffffff"
+  image: assets/images/Splash1.png
   android: true 
   ios: true 
 

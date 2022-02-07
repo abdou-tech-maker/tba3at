@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:store/Views/Welcoming.dart';
 import 'package:store/cutcorner.dart';
 
 class Login extends StatefulWidget {
@@ -99,6 +100,54 @@ class _LoginState extends State<Login> {
                             obscureText: hidePassword ? true : false,
                           ),
                         ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(
+                width: 10,
+              ),
+              Container(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: EdgeInsets.only(top: 7.5, right: 7.5, left: 7.5),
+                      child: ElevatedButton(
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) {
+                                return Welcoming();
+                              },
+                            ),
+                          );
+                        },
+                        child: Text(
+                          'Login',
+                          style: TextStyle(fontSize: 20),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 7.5, right: 7.5, left: 7.5),
+                      child: ElevatedButton(
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) {
+                                return Welcoming();
+                              },
+                            ),
+                          );
+                        },
+                        child: Text(
+                          'Signup',
+                          style: TextStyle(fontSize: 20),
+                        ),
                       ),
                     ),
                   ],
