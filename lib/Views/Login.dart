@@ -82,9 +82,6 @@ class _LoginState extends State<Login> {
                                   Icons.lock,
                                   color: Colors.blue,
                                 ),
-                                /*  errorText: error == 'false'
-                                      ? 'incorrect login information '
-                                      : null,*/
                                 border: CutCornersBorder(
                                   borderSide:
                                       BorderSide(color: Colors.blue, width: 2),

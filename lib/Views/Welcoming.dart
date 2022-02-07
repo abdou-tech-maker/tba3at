@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 
-class Welcoming extends StatelessWidget {
+class Welcoming extends StatefulWidget {
   @override
+  _WelcomingState createState() => _WelcomingState();
+}
+
+class _WelcomingState extends State<Welcoming> {
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(),
+    );
   }
 }
