@@ -30,7 +30,10 @@ class _LoginState extends State<Login> {
         backgroundColor: Colors.white,
         appBar: AppBar(
           title: Center(
-            child: Text('Tba3aT '),
+            child: Text(
+              'Tba3aT ',
+              style: TextStyle(decoration: TextDecoration.none),
+            ),
           ),
         ),
         resizeToAvoidBottomInset: true,
